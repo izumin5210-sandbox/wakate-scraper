@@ -6,6 +6,9 @@
     "email": "masayuki@izumin.info",
     "url": "http://izumin.info/"
   },
+  "bin": {
+    "wakate-scrape": "bin/cli.js"
+  },
   "bugs": {
     "url": "https://github.com/izumin5210/wakate-scraper/issues"
   },
@@ -25,6 +28,7 @@
     "url": "git+https://github.com/izumin5210/wakate-scraper.git"
   },
   "scripts": {
+    "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
